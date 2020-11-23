@@ -166,7 +166,7 @@ SmearPlot <- function(object, diffMethod, lfc = 1.5, conditions, TF = NULL,
             "network2")[NetworkData(object, "network2")[, "gene2"] %in% 
             TF, "gene1"]))
         
-        if ((length(c1) & length(c2)) == 0) {
+        if (sum(c(length(c1), length(c2))) == 0) {
             stop("No targets were identified for this TF")
         }
         
