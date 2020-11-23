@@ -50,6 +50,6 @@ CHANGES IN VERSION 1.2.2
 --------------------------
 	- Update to Bioconductor v3.12
 	
-CHANGES IN VERSION 1.2.3
+CHANGES IN VERSION 1.2.4
 --------------------------
 	- Bug fixes in getGroupGO and SmearPlot functions
